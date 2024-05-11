@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #CCC4AB;
+}
+
+.container{ 
+    width: 80%;
+    margin-left: 10%;
+}
+
+.header{
+    display: flex;  
+    align-items: center;
+    margin-left: 5%;
+} 
+
+.header img {
+    height: 50vh;
+    border-radius: 50%;
+}
+
+.header p{ 
+    font-size: 30px;
+     font-style:italic;
+}
+.header p span {
+    font-family: M;
+}
+
+.bio {
+    margin: 0;
+    padding:10% ;
+
+}
+
+.intro{
+        width: 80%;
+        margin: 100px auto;   
+}
+
+.intro h1{
+    align-items: center;
+    margin-left: 400px;
+}
+
+.intro p {
+    width: 60%;
+    margin-left: 250px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Actor", sans-serif;
+    font-weight: lighter;
+    
+}
+
+.footer {
+    width: 80%;
+    margin: 100px auto;   
+    
+    
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.skills h3 {
+    margin-left: auto;
+    
+
+}
+
+.skills ol {
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
